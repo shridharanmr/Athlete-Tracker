@@ -1,0 +1,8 @@
+/* FeeManagementPage.css */
+.fee-management-page { max-width: 1200px; }
+.fee-form-card { margin-bottom: 18px; }
+.pagination {
+  display: flex; justify-content: center; align-items: center;
+  gap: 14px; margin-top: 20px;
+}
+.page-info { font-size: 0.82rem; color: var(--text-muted); }

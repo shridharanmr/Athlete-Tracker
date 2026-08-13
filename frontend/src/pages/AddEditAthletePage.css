@@ -1,0 +1,31 @@
+/* AddEditAthletePage.css */
+.add-edit-page { max-width: 900px; }
+
+.form-section { margin-bottom: 18px; padding: 22px; }
+.section-title {
+  font-size: 0.78rem; font-weight: 700; color: var(--text-muted);
+  margin-bottom: 18px; padding-bottom: 12px;
+  border-bottom: 1px solid var(--border);
+  text-transform: uppercase; letter-spacing: 0.06em;
+  display: flex; align-items: center; gap: 8px;
+}
+
+.events-section { margin-top: 8px; }
+.events-header {
+  display: flex; justify-content: space-between; align-items: center;
+  margin-bottom: 10px;
+}
+.event-row {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr auto;
+  gap: 10px; align-items: center; margin-bottom: 10px;
+}
+
+.form-actions {
+  display: flex; justify-content: flex-end; gap: 12px;
+  margin-top: 8px; padding-top: 8px;
+}
+
+@media (max-width: 600px) {
+  .event-row { grid-template-columns: 1fr; }
+}

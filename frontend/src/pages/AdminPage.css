@@ -1,0 +1,18 @@
+/* AdminPage.css */
+.admin-page { max-width: 1100px; }
+
+.profile-tabs {
+  display: flex; gap: 4px; margin-bottom: 20px;
+  background: var(--bg-muted); padding: 4px;
+  border-radius: var(--radius-sm); width: fit-content;
+  border: 1px solid var(--border);
+}
+.tab-btn {
+  padding: 8px 18px; background: none; border: none;
+  font-family: var(--font-main); font-size: 0.85rem; font-weight: 600;
+  color: var(--text-muted); cursor: pointer; transition: all 0.15s;
+  border-radius: var(--radius-sm);
+  display: flex; align-items: center; gap: 6px;
+}
+.tab-btn:hover  { color: var(--text-primary); background: var(--bg-hover); }
+.tab-btn.active { color: var(--primary); background: var(--bg-card); box-shadow: var(--shadow-xs); }

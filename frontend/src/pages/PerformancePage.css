@@ -1,0 +1,13 @@
+/* PerformancePage.css */
+.performance-page { max-width: 1100px; }
+.performance-groups { display: flex; flex-direction: column; gap: 14px; }
+.period-card { padding: 20px; }
+.period-title {
+  font-size: 0.82rem; font-weight: 700; color: var(--text-secondary);
+  margin-bottom: 14px; display: flex; align-items: center; gap: 8px;
+  text-transform: uppercase; letter-spacing: 0.05em;
+}
+.empty-state { text-align: center; padding: 60px 20px; color: var(--text-muted); }
+.empty-icon { margin-bottom: 14px; display: flex; justify-content: center; opacity: 0.5; }
+.empty-state h3 { font-size: 1rem; font-weight: 700; color: var(--text-secondary); margin-bottom: 6px; }
+.empty-state p  { font-size: 0.875rem; }
